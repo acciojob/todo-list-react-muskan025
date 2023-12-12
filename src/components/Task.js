@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
-import '../styles/App.css'
 
 export const Tasks = ({task,tasks,setTasks}) => {
  const [edit,setEdit]=useState(false)

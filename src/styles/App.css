@@ -1,1 +1,45 @@
 
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .tasks_section{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .task,input{
+    border:1px solid black;
+    width:400px;
+    padding: 0.5em;
+    text-align: left;
+   }
+  
+  .tasks_section>input{
+    padding: 1em;
+  }
+  
+   .add_tasks_section>input{
+    width: 500px;
+    padding: 1em;
+  }
+  
+  button{
+    padding: 2em;
+  margin-left: 1rem;
+  cursor: pointer;
+  }
+  .add{
+    background-color: blue;
+  }
+  .edit,.save{
+    background-color: green;
+  }
+  .delete{
+    background-color: red;
+  }
